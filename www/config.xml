@@ -5,7 +5,7 @@
         versionCode = "7"
         version     = "1.0.0" >
 
-    <name>Chinese Checker</name>
+    <name>Chinese_Checker</name>
 
     <description>
         Chinese Checker, a two player turn based game
@@ -49,5 +49,10 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="*"/>
+    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0"/>
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.9.0">
+        <param name="APP_ID" value="740288386058693" />
+        <param name="APP_NAME" value="Chinese_Checker"/>
+    </gap:plugin>
 
 </widget>
